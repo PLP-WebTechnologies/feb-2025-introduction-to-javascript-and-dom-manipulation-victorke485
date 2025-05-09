@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #2b2202;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        h1 {
+            color: #black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Website</h1>
+    </header>
+    <main>
+        <section>
+            <p id="dynamicText">Click the button to change this text!</p>
+            <button id="changeTextBtn">Change Text</button>
+            <button id="styleBtn">Toggle Highlight</button>
+            <button id="addElementBtn">Add Element</button>
+            <button id="removeElementBtn">Remove Element</button>
+        </section>
+        <article id="elementContainer">
+            <p>Existing content in the container.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy;2025. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
